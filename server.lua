@@ -38,7 +38,7 @@ end
 
 
 Citizen.CreateThread(function()
-    PerformHttpRequest("", function(err, text, headers)
+    PerformHttpRequest("https://github.com/PeterOlsenDK/FiveM-Protector/blob/main/version.txt", function(err, text, headers)
         if text == version then
             print("^2[FiveM Protector] Scriptet kører nyeste version.")
         else
