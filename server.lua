@@ -42,7 +42,7 @@ Citizen.CreateThread(function()
         if text == version then
             print("^2[FiveM Protector] Scriptet kører nyeste version.")
         else
-            print("^1[FiveM Protector] Scriptet kører ikke nyeste version. Download den nyeste her: ")
+            print("^1[FiveM Protector] Scriptet kører ikke nyeste version. Download den nyeste her: https://github.com/PeterOlsenDK/FiveM-Protector")
         end
     end, 'GET', '')
 
